@@ -61,8 +61,14 @@
 // }
 // test();
 
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => {
-    console.log(i);
-  }, 1000);
-}
+// for (var i = 0; i < 3; i++) {
+//   setTimeout(() => {
+//     console.log(i);
+//   }, 1000);
+// }
+
+const person = { name: "ope" };
+const dev = person;
+dev.name = "codewithope";
+
+console.log(person.name);
